@@ -13,3 +13,16 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<header class="main-header">
+	<div class="l-logo-con">
+		<a href="<?php echo get_site_url(); ?>" alt="ParcOffice"><img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" width="134px" height="22px" class="main-logo"></a>
+	</div>
+	<nav class="main-nav">
+		<ul class="l-horizontal-nav">
+			<li><a href="#add-link">People</a></li>
+			<li><a href="#add-link">Projects</a></li>
+			<li><a href="#add-link">Office</a></li>
+			<li><a href="#add-link">Press</a></li>
+		</ul>
+	</nav>
+</header>
