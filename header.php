@@ -10,7 +10,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    
+
     <?php wp_head(); ?>
 </head>
 <body>
@@ -23,7 +23,7 @@
 			<li><a href="#add-link">People</a></li>
 			<li><a href="#add-link">Projects</a></li>
 			<li><a href="#add-link">Office</a></li>
-			<li><a href="#add-link">Press</a></li>
+			<li><a href="#add-link" class="last">Press</a></li>
 		</ul>
 	</nav>
 </header>

@@ -9,5 +9,27 @@
 	top: 0;
 	border-top: 3px solid #000;
 	background: #fff;
-	line-height: 49px;
+}
+
+.main-nav {
+
+	padding-top: 18px;
+
+	li {
+		margin: 0 68px 0 0;
+
+		&.last {
+			margin-right: 0;
+		}
+	}
+
+	a {
+		font: normal normal $dag-reg 14px/1 $font-family-dag;
+		text-decoration: none;
+		letter-spacing: 1px;
+		
+		&:hover {
+			color: $dark-gray;
+		}
+	}
 }
