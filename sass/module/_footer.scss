@@ -1,0 +1,91 @@
+/*
+ * footer 
+*/
+
+.main-footer {
+    position: fixed;
+    width: 100%;
+    height: 47px;
+    min-width: 640px;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0 19px 10px;
+    border-top: 2px solid $light-gray;
+    background: $white;
+    overflow: hidden;
+
+	p {
+	    float: left;
+	    color: $dark-gray;
+	    font-size: 12px;
+	    line-height: 8px;
+	    margin: 0;
+
+	    strong {
+	        color: $black;
+	    }
+	}
+}
+
+.footer-link,
+.main-footer p a {
+    color: $dark-gray;
+    text-decoration: none;
+}
+
+.social-media {
+    float: left;
+    list-style: none;
+    display: inline;
+    margin: -1px 0 0;
+    padding: 0 0 0 12px;
+}
+
+.social-media li {
+    float: left;
+    margin-right: 6px;
+}
+
+.linkedin {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../img/social_icons.svg) no-repeat 0 0;
+
+    &:hover {
+    	background-position: 0 bottom;
+    }
+}
+.no-svg .linkedin {
+    background-image: url(../img/social_icons.png);   
+}
+
+.twitter {
+    display: block;
+    width: 8px;
+    height: 10px;
+    background: url(../img/social_icons.svg) no-repeat -16px 0;
+
+    &:hover {
+        background-position: -16px bottom;
+    }
+}
+
+.no-svg .twitter {
+    background-image: url(../img/social_icons.png);
+}
+
+.facebook {
+    display: block;
+    width: 5px;
+    height: 10px;
+    background: url(../img/social_icons.svg) no-repeat -30px 0;
+
+    &:hover {
+	    background-position: -30px bottom;
+	}
+}
+
+.no-svg .facebook {
+    background-image: url(../img/social_icons.png);
+}
