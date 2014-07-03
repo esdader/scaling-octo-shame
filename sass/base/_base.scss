@@ -10,10 +10,32 @@
  * colors
  */
 
+// black, grays and whites
+$white: #fff;
+$light-grey: #ebebeb;
+$dark-grey: #7d7d7b;
+$black: #000;
+
+// other colors
+$yellow: #ffff00;
+$green: #67fc85;
+$red: #ff4e59;
+$blue: #00afff;
+$sky-blue: #67e1ff;
+$purple: #d000ff;
+$deep-red: #d00057;
+
 
 /**
- * fonts 
+ * fonts
  */
+
+ $font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ $font-family-dag: "ff-dagny-web-pro",sans-serif;
+
+ $dag-light: 200;
+ $dag-bold: 700;
+
 
 /**
  * Some defautls
@@ -23,4 +45,13 @@
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box; 
+}
+
+html,
+body {
+	font-family: $font-family;
+}
+
+a {
+	color: $black;
 }
