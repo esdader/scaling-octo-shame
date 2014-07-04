@@ -23,7 +23,7 @@
 			<li><a href="#add-link">People</a></li>
 			<li><a href="#add-link">Projects</a></li>
 			<li><a href="#add-link">Office</a></li>
-			<li><a href="#add-link" class="last">Press</a></li>
+			<li class="last"><a href="#add-link">Press</a></li>
 		</ul>
 	</nav>
 </header>
