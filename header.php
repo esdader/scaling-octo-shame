@@ -21,7 +21,17 @@
 	<nav class="main-nav">
 		<ul class="l-horizontal-nav">
 			<li><a href="#add-link">People</a></li>
-			<li><a href="#add-link">Projects</a></li>
+			<li class="main-nav-dd-btn">
+				<a href="#add-link">Projects</a>
+				<div class="main-nav-dd-con">
+					<ul class="main-nav-dd">
+						<li><a href="#add-link">Objects</a></li>
+						<li><a href="#add-link">Science</a></li>
+						<li><a href="#add-link">Spaces</a></li>
+						<li><a href="#add-link">Knowledge</a></li>
+					</ul>
+				</div>
+			</li>
 			<li><a href="#add-link">Office</a></li>
 			<li class="last"><a href="#add-link">Press</a></li>
 		</ul>
