@@ -5,7 +5,24 @@
 .statement-module {
 	width: 161px;
 	height: 160px;
+	padding: 16px 13px;
 	margin-bottom: 5px;
+
+	h1 {
+		margin: 0;
+		font: italic normal $dag-light 20px/22px $font-family-dag;
+		color: $white;
+		letter-spacing: 1px;
+	}
+
+	a {
+		font: italic normal $dag-light 10px/12px $font-family-dag;
+		color: $white;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 
 .primary-image-module {
