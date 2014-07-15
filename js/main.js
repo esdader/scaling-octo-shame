@@ -1,4 +1,4 @@
-/* jshint global jQuery: false  */
+/* global jQuery  */
 
 (function ($, window) {
 
