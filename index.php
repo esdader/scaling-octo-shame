@@ -9,18 +9,53 @@
 				
 			</div>
 			<div class="l-module secondary-image-module">
-				
+				<div id="owl-example" class="owl-carousel">
+				  <div><img src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				  <div><img  class="lazyOwl" data-src="http://placekitten.com/161/327" alt="" /></div>
+				</div>	
 			</div>
 		</div>
 		<div class="l-col two">
 			<div class="l-module primary-image-module">
-				
+				<div id="owl-example" class="owl-carousel">
+					<div><img src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://placekitten.com/327/327" alt="" /></div>	
+				</div>
 			</div>
 			<div class="l-module graphic-module">
 				
 			</div>
 			<div class="l-module tertiary-image-module">
-				
+				<div class="l-module primary-image-module">
+					<div id="owl-example" class="owl-carousel">
+						<div><img src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+						<div><img  class="lazyOwl" data-src="http://placekitten.com/161/161" alt="" /></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</article>

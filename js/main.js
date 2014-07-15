@@ -15,4 +15,16 @@
         $ddCon.fadeOut(200);
     });
 
+
+    // kick off owl carousel
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            lazyLoad: true,
+            navigation: true,
+            lazyFollow: false,
+            pagination: true
+        });
+    });
+
 }) (jQuery, window);
