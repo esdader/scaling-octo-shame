@@ -1,3 +1,5 @@
+/* jshint global jQuery: false  */
+
 (function ($, window) {
 
     'use strict';
