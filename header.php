@@ -20,20 +20,20 @@
 	</div>
 	<nav class="main-nav">
 		<ul class="l-horizontal-nav">
-			<li><a href="#add-link">People</a></li>
+			<li><a href="<?php echo get_page_link(28); ?>">People</a></li>
 			<li class="main-nav-dd-btn">
-				<a href="#add-link">Projects</a>
+				<a href="<?php echo get_page_link(18); ?>">Projects</a>
 				<div class="main-nav-dd-con">
 					<ul class="main-nav-dd">
-						<li><a href="#add-link">Objects</a></li>
-						<li><a href="#add-link">Science</a></li>
-						<li><a href="#add-link">Spaces</a></li>
-						<li><a href="#add-link">Knowledge</a></li>
+						<li><a href="<?php echo get_page_link(20); ?>">Objects</a></li>
+						<li><a href="<?php echo get_page_link(22); ?>">Science</a></li>
+						<li><a href="<?php echo get_page_link(24); ?>">Spaces</a></li>
+						<li><a href="<?php echo get_page_link(26); ?>">Knowledge</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a href="#add-link">Office</a></li>
-			<li class="last"><a href="#add-link">Press</a></li>
+			<li><a href="<?php echo get_page_link(32); ?>">Office</a></li>
+			<li class="last"><a href="<?php echo get_page_link(30); ?>">Press</a></li>
 		</ul>
 	</nav>
 </header>
