@@ -5,8 +5,9 @@
 .statement-module {
 	width: 161px;
 	height: 160px;
-	padding: 16px 13px;
+	// padding: 16px 13px;
 	margin-bottom: 5px;
+	background-color: #ff4e59;
 
 	h1 {
 		margin: 0;
@@ -16,12 +17,28 @@
 	}
 
 	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		padding: 16px 13px;
+		text-decoration: none;
+	}
+
+	p {
 		font: italic normal $dag-light 10px/12px $font-family-dag;
 		color: $white;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		text-decoration: underline;
 
 		&:hover {
 			text-decoration: none;
 		}
+	}
+
+	&.projects-view {
+		float: left;
+		margin-right: 5px;
 	}
 }
 
