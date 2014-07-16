@@ -48,18 +48,54 @@
 								</a>
 							</div>
 							<div class="l-module secondary-image-module">
-								
+								<?php if ( have_rows('secondary_image_module') ) : ?>
+									<div class="owl-carousel carousel-show-dots">
+										<?php while ( have_rows('secondary_image_module') ) : the_row(); ?>
+											<?php 
+												$img = get_sub_field('secondary_image');
+												$img =  $img['sizes']['secondary-image'];
+											?>
+											<div><img  class="lazyOwl" data-src="<?php echo $img; ?>" alt="" /></div>
+										<?php endwhile; ?>
+									</div>
+									<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+									<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
+								<?php endif; ?>
 							</div>
 						</div>
 						<div class="l-col two">
 							<div class="l-module primary-image-module">
-								
+								<?php if ( have_rows('primary_image_module') ) : ?>
+									<div class="owl-carousel carousel-show-dots">
+										<?php while ( have_rows('primary_image_module') ) : the_row(); ?>
+											<?php 
+												$img = get_sub_field('primary_image');
+												$img =  $img['sizes']['primary-image'];
+											?>
+											<div><img  class="lazyOwl" data-src="<?php echo $img; ?>" alt="" /></div>
+										<?php endwhile; ?>
+									</div>
+									<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+									<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
+								<?php endif; ?>
 							</div>
 							<div class="l-module graphic-module">
 								
 							</div>
 							<div class="l-module tertiary-image-module">
-								
+								<?php if ( have_rows('tertiary_image_module') ) : ?>
+									<div class="owl-carousel carousel-show-dots">
+										<?php while ( have_rows('tertiary_image_module') ) : the_row(); ?>
+											<?php 
+												$img = get_sub_field('tertiary_image');
+												$img =  $img['sizes']['tertiary-image'];
+											?>
+											<div><img  class="lazyOwl" data-src="<?php echo $img; ?>" alt="" /></div>
+										<?php endwhile; ?>
+									</div>
+									<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+									<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
+								<?php endif; ?>
 							</div>
 						</div>
 					</article>
