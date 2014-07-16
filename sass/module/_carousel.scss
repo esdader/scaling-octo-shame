@@ -1,3 +1,33 @@
 /*
  * Carousel
 */
+
+// carousel controls
+
+.carousel-btn {
+	position: absolute;
+	top: 50%;
+	z-index: 998;
+	display: block;
+	width: 21px;
+	height: 28px;
+	margin-top: -14px;
+	background-color: #000;
+	border: none;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, .6);
+	}
+
+	&.carousel-prev {
+		left: 0;
+	}
+
+	&.carousel-next {
+		right: 0;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}

@@ -5,28 +5,28 @@
 			<div class="l-module statement-module red">
 				<h1>Project Statement Module</h1>
 				<a href="#add-link">Knowledge</a>
-
-				
 			</div>
 			<div class="l-module secondary-image-module">
-				<div id="owl-example" class="owl-carousel">
-				  <div><img src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				  <div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
-				</div>	
+				<div class="owl-carousel carousel-show-dots">
+					<div><img src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/327/nature" alt="" /></div>
+				</div>
+				<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+				<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
 			</div>
 		</div>
 		<div class="l-col two">
 			<div class="l-module primary-image-module">
-				<div id="owl-example" class="owl-carousel">
+				<div class="owl-carousel carousel-show-dots">
 					<div><img src="http://lorempixel.com/327/327/nature" alt="" /></div>
 					<div><img  class="lazyOwl" data-src="http://lorempixel.com/327/327/nature" alt="" /></div>
 					<div><img  class="lazyOwl" data-src="http://lorempixel.com/327/327/nature" alt="" /></div>
@@ -37,25 +37,27 @@
 					<div><img  class="lazyOwl" data-src="http://lorempixel.com/327/327/nature" alt="" /></div>
 					<div><img  class="lazyOwl" data-src="http://lorempixel.com/327/327/nature" alt="" /></div>	
 				</div>
+				<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+				<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
 			</div>
 			<div class="l-module graphic-module">
 				
 			</div>
 			<div class="l-module tertiary-image-module">
-				<div class="l-module primary-image-module">
-					<div id="owl-example" class="owl-carousel-tertiary">
-						<div><img src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-						<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
-					</div>
+				<div class="owl-carousel carousel-hide-dots">
+					<div><img src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
+					<div><img  class="lazyOwl" data-src="http://lorempixel.com/161/161/nature" alt="" /></div>
 				</div>
+				<button class="carousel-btn carousel-prev"><span class="visuallyhidden">Previous Image</span></button>
+				<button class="carousel-btn carousel-next"><span class="visuallyhidden">Next Image</span></button>
 			</div>
 		</div>
 	</article>

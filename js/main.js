@@ -1,6 +1,6 @@
 /* global jQuery  */
 
-(function ($, window) {
+(function ($, window, document) {
 
     'use strict';
 
@@ -18,7 +18,10 @@
 
     // kick off owl carousel
     $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
+        var $nextBtns = $('.carousel-next'),
+            $prevBtns = $('.carousel-prev');
+
+        $(".carousel-show-dots").owlCarousel({
             items: 1,
             lazyLoad: true,
             navigation: false,
@@ -26,7 +29,7 @@
             pagination: true
         });
 
-        $(".owl-carousel-tertiary").owlCarousel({
+        $(".carousel-hide-dots").owlCarousel({
             items: 1,
             lazyLoad: true,
             navigation: false,
@@ -34,7 +37,15 @@
             pagination: false
         });
 
-        
+        $nextBtns.on('click', function () {
+            var $owl = $(this).parent().find('.owl-carousel');
+            $owl.trigger('owl.next');
+        });
+
+        $prevBtns.on('click', function () {
+            var $owl = $(this).parent().find('.owl-carousel');
+            $owl.trigger('owl.prev');
+        });
     });
 
-}) (jQuery, window);
+}) (jQuery, window, document);
