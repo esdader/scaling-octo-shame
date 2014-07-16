@@ -21,10 +21,20 @@
         $(".owl-carousel").owlCarousel({
             items: 1,
             lazyLoad: true,
-            navigation: true,
+            navigation: false,
             lazyFollow: false,
             pagination: true
         });
+
+        $(".owl-carousel-tertiary").owlCarousel({
+            items: 1,
+            lazyLoad: true,
+            navigation: false,
+            lazyFollow: false,
+            pagination: false
+        });
+
+        
     });
 
 }) (jQuery, window);
