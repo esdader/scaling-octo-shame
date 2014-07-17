@@ -68,3 +68,31 @@
 	float: left;
 	margin-right: 5px;
 }
+
+.contact-module {
+	position: relative;
+	width: 327px;
+	height: 327px;
+	padding: 13px 16px;
+	background-color: $white;
+
+	h1 {
+		margin: 0 0 2.5em;
+		font: normal normal $dag-light 14px/1.4 $font-family-dag;
+		color: $dark-gray;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		text-decoration: underline;
+	}
+
+	p {
+		color: $light-gray;
+		font-size: 26px;
+	}
+
+	a {
+		color: $light-gray;
+		font-size: 26px;
+		text-decoration: underline;
+	}
+}
